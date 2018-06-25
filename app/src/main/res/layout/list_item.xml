@@ -4,4 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="99dp"
+        android:layout_height="99dp" />
 </LinearLayout>
