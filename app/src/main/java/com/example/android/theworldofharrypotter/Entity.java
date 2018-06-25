@@ -1,3 +1,5 @@
+package com.example.android.theworldofharrypotter;
+
 public class Entity {
     private static final int NO_IMAGE_PROVIDED = -1;
     private String mName;

@@ -1,3 +1,5 @@
+package com.example.android.theworldofharrypotter;
+
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -13,8 +15,9 @@ import com.example.android.theworldofharrypotter.SpellsFragment;
 public class CategoryAdapter extends FragmentPagerAdapter {
     private Context mContext;
 
-    public CategoryAdapter(FragmentManager fm) {
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
 
     @Override
@@ -33,7 +36,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     }
 
     //TODO override getPageTitle on CharSequence if 0 return titleString for tab in quotes
-    
+
     @Override
     public int getCount() {
         return 5;
