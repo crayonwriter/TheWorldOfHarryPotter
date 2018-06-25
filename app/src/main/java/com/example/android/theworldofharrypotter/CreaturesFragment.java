@@ -29,7 +29,7 @@ public class CreaturesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.entity_list, container, false);
+        View rootView = inflater.inflate(R.layout.entity_, container, false);
 
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();

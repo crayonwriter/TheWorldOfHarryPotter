@@ -32,25 +32,26 @@ public class EntityAdapter extends ArrayAdapter<Entity> {
 
         }
 
+
         // Get the {@link Entity} object located at this position in the list
         Entity currentEntity = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
+        // Find the TextView in the list_item.xml layout with the ID name_text_view
+        TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_textview);
         // Get the version name from the current Word object and
         // set this text on the name TextView
-        miwokTextView.setText(currentEntity.getName());
+        //miwokTextView.setText(currentEntity.getName());
 
 
         // Find the TextView in the list_item.xml layout with the ID default_text_view
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
+        //TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        defaultTextView.setText(currentEntity.getDescription());
+        //defaultTextView.setText(currentEntity.getDescription());
 
-        View textContainer = listItemView.findViewById(R.id.text_container);
-        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-        textContainer.setBackgroundColor(color);
+//        View textContainer = listItemView.findViewById(R.id.text_container);
+//        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+//        textContainer.setBackgroundColor(color);
 
         //Find the ImageView in the list_item.xml layout with the ID image
         ImageView imageView = listItemView.findViewById(R.id.image);
