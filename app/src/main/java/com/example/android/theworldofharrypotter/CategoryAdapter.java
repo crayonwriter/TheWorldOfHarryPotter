@@ -35,11 +35,27 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         }
     }
 
-    //TODO override getPageTitle on CharSequence if 0 return titleString for tab in quotes
-
     @Override
     public int getCount() {
         return 5;
     }
+
+    //TODO override getPageTitle on CharSequence if 0 return titleString for tab in quotes
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if (position == 0) {
+            return "Famous Locations";
+        } else if (position == 1) {
+            return "Notable Events";
+        } else if (position == 2) {
+            return "Curious Shops";
+        } else if (position == 3) {
+            return "Creatures";
+        } else {
+            return "Spells";
+        }
+    }
+
+
 
 }

@@ -29,12 +29,15 @@ public class CreaturesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.entity_, container, false);
+        View rootView = inflater.inflate(R.layout.entity_list, container, false);
 
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();
-        entity.add(new Entity("name", "desription"));
-
+        entity.add(new Entity("Mountain Troll", "The largest and most aggressive of the trolls."));
+        entity.add(new Entity("Winged Horse", "Thestrals are a type of winged horse."));
+        entity.add(new Entity("Grindylow", "This water demon is aggressive, but some mer-people keep them as pets."));
+        entity.add(new Entity("Hippogriff ", "Buckbeak is a famous Hippogriff, part eagle, part horse."));
+        entity.add(new Entity("Phoenix ", "This red bird bursts into flames on Burning Day, rises from the ashes, and is full-sized in days."));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
@@ -44,7 +47,7 @@ public class CreaturesFragment extends Fragment {
 
         EntityAdapter adapter = new EntityAdapter(getActivity(), entity);
 
-        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // Find the {@link ListView} object in the view hi2erarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
 
