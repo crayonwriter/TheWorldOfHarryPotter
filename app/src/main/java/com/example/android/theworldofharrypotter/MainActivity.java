@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
         //Find the viewpager
         ViewPager viewPager = findViewById(R.id.viewPager);
 
-
-
         //Create an adapter from the custom adapter class
         CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
 

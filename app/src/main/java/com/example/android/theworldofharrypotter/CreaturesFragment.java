@@ -45,9 +45,9 @@ public class CreaturesFragment extends Fragment {
         // This list item layout contains a single {@link TextView}, which the adapter will set to
         // display a single word.
 
-        EntityAdapter adapter = new EntityAdapter(getActivity(), entity);
+        EntityAdapter adapter = new EntityAdapter(getActivity(), entity, R.color.creatures);
 
-        // Find the {@link ListView} object in the view hi2erarchy of the {@link Activity}.
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
 
