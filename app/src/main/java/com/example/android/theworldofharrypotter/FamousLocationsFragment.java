@@ -47,7 +47,7 @@ public class FamousLocationsFragment extends Fragment {
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
