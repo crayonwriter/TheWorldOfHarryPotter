@@ -6,16 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.theworldofharrypotter.MainActivity">
-
-    <android.support.design.widget.TabLayout
-        android:id="@+id/tabs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+    
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+    <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/viewPager_title_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#33b5e5"
+        android:textColor="#fff"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp" />
+
+    </android.support.v4.view.ViewPager>
 
 
 
