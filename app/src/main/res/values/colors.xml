@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="creatures">#008b00</color>
     <color name="shops">#ff9e22</color>
+    <color name="locations">#4a26fd</color>
 </resources>
