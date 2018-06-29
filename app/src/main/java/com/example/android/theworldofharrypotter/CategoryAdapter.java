@@ -1,6 +1,7 @@
 package com.example.android.theworldofharrypotter;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -40,19 +41,19 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         return 5;
     }
 
-    //TODO override getPageTitle on CharSequence if 0 return titleString for tab in quotes
+    @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return "Famous Locations";
+            return mContext.getString(R.string.locations);
         } else if (position == 1) {
-            return "Notable Events";
+            return mContext.getString(R.string.events);
         } else if (position == 2) {
-            return "Curious Shops";
+            return mContext.getString(R.string.shops);
         } else if (position == 3) {
-            return "Creatures";
+            return mContext.getString(R.string.creatures);
         } else {
-            return "Spells";
+            return mContext.getString(R.string.spells);
         }
     }
 

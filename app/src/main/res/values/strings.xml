@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">TheWorldOfHarryPotter</string>
+    <string name="app_name">The World Of Harry Potter</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="locations">Famous Locations</string>
+    <string name="spells">Spells</string>
+    <string name="creatures">Creatures</string>
+    <string name="shops">Curious Shops</string>
+    <string name="events">Notable Events</string>
 </resources>
