@@ -29,11 +29,16 @@ public class SpellsFragment extends Fragment {
 
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();
-        entity.add(new Entity("Mountain Troll", "The largest and most aggressive of the trolls."));
-        entity.add(new Entity("Winged Horse", "Thestrals are a type of winged horse."));
-        entity.add(new Entity("Grindylow", "This water demon is aggressive, but some mer-people keep them as pets."));
-        entity.add(new Entity("Hippogriff ", "Buckbeak is a famous Hippogriff, part eagle, part horse."));
-        entity.add(new Entity("Phoenix", "This red bird bursts into flames on Burning Day, rises from the ashes, and is full-sized in days."));
+        entity.add(new Entity("Accio (Summoning Charm)", "This charm summons an object to the caster"));
+        entity.add(new Entity("Aguamenti (Water-Making Spell)", "Produces a fountain or jet of water from the wand tip."));
+        entity.add(new Entity("Alohomora (Unlocking Charm)", "Used to open and unlock doors."));
+        entity.add(new Entity("Avada Kedavra (Killing Curse) ", "Causes instant death to the victim wherever it hits on the body, is accompanied by a flash of green light and a rushing noise"));
+        entity.add(new Entity("Expecto Patronum (Patronus Charm)", "a defensive spell which will conjure a spirit-like incarnation of their positive emotions to defend against dark creatures; it can also send messages to other witches or wizards."));
+        entity.add(new Entity("Expelliarmus (Disarming Charm)", "Causes whatever the victim is holding to fly away, knocks out an opponent if used too forcefully."));
+        entity.add(new Entity("Firestorm", " Produces a ring of fire from the wand tip that can strike targets."));
+        entity.add(new Entity("Geminio (Gemino Curse)", "Creates an identical, useless copy of the target."));
+        entity.add(new Entity("Horcrux Curse", "This spell allows a part of a wizard's soul to pass into an object, thereby making the object a Horcrux. One has to commit murder and take advantage of the soul's \"splitting apart\""));
+        entity.add(new Entity("Immobulus (Freezing Charm)", "Renders living targets immobile."));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
