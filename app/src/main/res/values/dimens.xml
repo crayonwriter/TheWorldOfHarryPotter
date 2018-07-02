@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ListItemHeight">88dp</dimen>
+    <dimen name="ImageItemWidth">88dp</dimen>
+    <dimen name="ImageItemHeight">200dp</dimen>
+    <dimen name="RightMargin">8dp</dimen>
+    <dimen name="LeftMargin">8dp</dimen>
+    <dimen name="NameItemHeight">35dp</dimen>
+    <dimen name="TextDescriptionHeight">88dp</dimen>
+</resources>
