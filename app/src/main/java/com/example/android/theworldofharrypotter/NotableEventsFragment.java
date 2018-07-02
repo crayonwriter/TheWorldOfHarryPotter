@@ -29,12 +29,10 @@ public class NotableEventsFragment extends Fragment {
 
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();
-        entity.add(new Entity("Mountain Troll", "The largest and most aggressive of the trolls."));
-        entity.add(new Entity("Winged Horse", "Thestrals are a type of winged horse."));
-        entity.add(new Entity("Grindylow", "This water demon is aggressive, but some mer-people keep them as pets."));
-        entity.add(new Entity("Hippogriff ", "Buckbeak is a famous Hippogriff, part eagle, part horse."));
-        entity.add(new Entity("Phoenix", "This red bird bursts into flames on Burning Day, rises from the ashes, and is full-sized in days."));
-
+        entity.add(new Entity(" Triwizard Tournament", "An inter-school magical competition that consists of three dangerous tasks."));
+        entity.add(new Entity("Quidditch World Cup", "Thestrals are a type of winged horse."));
+        entity.add(new Entity("Battle of Hogwarts", "third and final conflict of the Second Wizarding War, which also ended the war. It took place in the early hours of 2 May, 1998, within the castle and on the grounds of Hogwarts School Of Witchcraft And Wizardry."));
+        
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
         // simple_list_item_1.xml layout resource defined in the Android framework.
