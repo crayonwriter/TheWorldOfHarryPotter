@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
+ 
 public class EntityAdapter extends ArrayAdapter<Entity> {
     public int mColorResourceId;
 
