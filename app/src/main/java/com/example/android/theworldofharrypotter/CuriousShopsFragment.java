@@ -15,12 +15,9 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class CuriousShopsFragment extends Fragment {
-
-
     public CuriousShopsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,7 +44,7 @@ public class CuriousShopsFragment extends Fragment {
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
@@ -55,8 +52,5 @@ public class CuriousShopsFragment extends Fragment {
         listView.setAdapter(adapter);
 
         return rootView;
-
-
     }
-
 }

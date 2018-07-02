@@ -15,12 +15,9 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class FamousLocationsFragment extends Fragment {
-
-
     public FamousLocationsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -56,5 +53,4 @@ public class FamousLocationsFragment extends Fragment {
 
         return rootView;
     }
-
 }

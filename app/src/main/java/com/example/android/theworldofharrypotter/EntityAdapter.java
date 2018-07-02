@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
- 
+
 public class EntityAdapter extends ArrayAdapter<Entity> {
     public int mColorResourceId;
 
@@ -48,7 +48,7 @@ public class EntityAdapter extends ArrayAdapter<Entity> {
 
         // Find the TextView in the list_item.xml layout with the ID description_textview
 
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_textview);
+        TextView descriptionTextView = listItemView.findViewById(R.id.description_textview);
         // Get the description from the current Entity object and
         // set this text on the descriptionTextView
 
@@ -65,8 +65,6 @@ public class EntityAdapter extends ArrayAdapter<Entity> {
             imageView.setVisibility(View.VISIBLE);
         } else {
             imageView.setVisibility(View.GONE);
-
-
         }
         return listItemView;
     }
