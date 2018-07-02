@@ -29,11 +29,11 @@ public class SpellsFragment extends Fragment {
 
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();
-        entity.add(new Entity("Mountain Troll", "The largest and most aggressive of the trolls.", R.drawable.griffin));
-        entity.add(new Entity("Winged Horse", "Thestrals are a type of winged horse.", R.drawable.griffin));
-        entity.add(new Entity("Grindylow", "This water demon is aggressive, but some mer-people keep them as pets.", R.drawable.grindylow));
-        entity.add(new Entity("Hippogriff ", "Buckbeak is a famous Hippogriff, part eagle, part horse.", R.drawable.griffin));
-        entity.add(new Entity("Phoenix", "This red bird bursts into flames on Burning Day, rises from the ashes, and is full-sized in days.", R.drawable.phoenix));
+        entity.add(new Entity("Mountain Troll", "The largest and most aggressive of the trolls."));
+        entity.add(new Entity("Winged Horse", "Thestrals are a type of winged horse."));
+        entity.add(new Entity("Grindylow", "This water demon is aggressive, but some mer-people keep them as pets."));
+        entity.add(new Entity("Hippogriff ", "Buckbeak is a famous Hippogriff, part eagle, part horse."));
+        entity.add(new Entity("Phoenix", "This red bird bursts into flames on Burning Day, rises from the ashes, and is full-sized in days."));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
