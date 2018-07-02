@@ -31,7 +31,7 @@ public class FamousLocationsFragment extends Fragment {
         final ArrayList<Entity> entity = new ArrayList<Entity>();
         entity.add(new Entity("Quidditch World Cup Campsite", "The Muggle campsite where wizards camped out before the Quidditch World Cup."));
         entity.add(new Entity("12 Grimmauld Place", "Originally the home of the Black family, this Muggle-invisible house became a location for the Order of the Phoenix."));
-        entity.add(new Entity("The Burrow", "The Weasley family home.", R.drawable.grindylow));
+        entity.add(new Entity("The Burrow", "The Weasley family home."));
         entity.add(new Entity("Forbidden Forest", "The dark forest by Hogwarts that was forbidden to students."));
         entity.add(new Entity("Gringotts Wizarding Bank", "Run by Goblins (who also own it), this bank is the only bank for wizards."));
 

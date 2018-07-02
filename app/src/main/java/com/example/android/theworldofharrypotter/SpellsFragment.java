@@ -33,11 +33,11 @@ public class SpellsFragment extends Fragment {
         entity.add(new Entity("Aguamenti (Water-Making Spell)", "Produces a fountain or jet of water from the wand tip."));
         entity.add(new Entity("Alohomora (Unlocking Charm)", "Used to open and unlock doors."));
         entity.add(new Entity("Avada Kedavra (Killing Curse) ", "Causes instant death to the victim wherever it hits on the body, is accompanied by a flash of green light and a rushing noise"));
-        entity.add(new Entity("Expecto Patronum (Patronus Charm)", "a defensive spell which will conjure a spirit-like incarnation of their positive emotions to defend against dark creatures; it can also send messages to other witches or wizards."));
+        entity.add(new Entity("Expecto Patronum (Patronus Charm)", "A defensive spell which conjures a spirit-like incarnation of their positive emotions to defend against dark creatures."));
         entity.add(new Entity("Expelliarmus (Disarming Charm)", "Causes whatever the victim is holding to fly away, knocks out an opponent if used too forcefully."));
         entity.add(new Entity("Firestorm", " Produces a ring of fire from the wand tip that can strike targets."));
         entity.add(new Entity("Geminio (Gemino Curse)", "Creates an identical, useless copy of the target."));
-        entity.add(new Entity("Horcrux Curse", "This spell allows a part of a wizard's soul to pass into an object, thereby making the object a Horcrux. One has to commit murder and take advantage of the soul's \"splitting apart\""));
+        entity.add(new Entity("Horcrux Curse", "This spell allows a part of a wizard's soul to pass into an object, making the object a Horcrux. One has to commit murder."));
         entity.add(new Entity("Immobulus (Freezing Charm)", "Renders living targets immobile."));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The

@@ -30,8 +30,8 @@ public class NotableEventsFragment extends Fragment {
         // Create a list of Creature entities
         final ArrayList<Entity> entity = new ArrayList<Entity>();
         entity.add(new Entity(" Triwizard Tournament", "An inter-school magical competition that consists of three dangerous tasks."));
-        entity.add(new Entity("Quidditch World Cup", "Thestrals are a type of winged horse."));
-        entity.add(new Entity("Battle of Hogwarts", "third and final conflict of the Second Wizarding War, which also ended the war. It took place in the early hours of 2 May, 1998, within the castle and on the grounds of Hogwarts School Of Witchcraft And Wizardry."));
+        entity.add(new Entity("Quidditch World Cup", "Held every four years since 1473, Quidditch teams representing countries around the world compete for the World Cup, "));
+        entity.add(new Entity("Battle of Hogwarts", "This battle, within the castle/on the grounds of Hogwarts School, ended the second Wizarding War on May 2, 1998."));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
